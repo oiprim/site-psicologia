@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url(fonts/abigate\ desgo.otf);
+@import url(fonts/abigate\ desgo\ italic.ttf);
+@import url(fonts/Butler_Medium.otf);
+@import url(fonts/Butler_Ultra_Light.otf);
+@import url(fonts/Butler_Bold.otf);
+@import url(fonts/Butler_Black.otf);
+@font-face {
+    font-family: abigate;
+    src: url(fonts/abigate\ desgo.otf) format(opentype) url(fonts/abigate\ desgo\ italic.ttf) format(truetype);
+}
+@font-face {
+    font-family: butler;
+    src: url(fonts/Butler_Medium.otf) format(opentype) url(fonts/Butler_Ultra_Light.otf) format(opentype)  url(fonts/Butler_Bold.otf) format(opentype) url(fonts/Butler_Black.otf) format(opentype);
+}
+
+:root {
+    --cor1: #F39200;
+    --font-destaque: 'abigate';
+    --font-padrao: 'butler'
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+header > img{
+    margin: auto;
+    width: 150px;
+    display: block;
+}
+
+body {
+    background-color: darkgray;
+}
+
+picture{
+    margin: auto; 
+    display: block;
+}
+
+div#line {
+    background-color: aqua;
+    width: 100%;
+    height: 2px;
+}
