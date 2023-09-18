@@ -92,25 +92,18 @@ picture > img {
 }
 
 div.sobre {
-    background-image: url(../images/profile-g.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: 100px;
-    background-size: cover;
-    background-attachment:fixed;
+    display: flexbox;
+}
+
+#conteudo {
+    background-color: white;
     margin: auto;
-    max-width: 1000px;
+    max-width: 500px;
     display: block;
 }
 
-#left {
-    width: 40%;
-    display: inline-block;
-    background-color: white;
-}
-
-#right {
-    width: 40%;
-    display: inline-block;
-    
+#imagem {
+    display: inline;
+    width: 100px;
+    height: 20px;
 }
